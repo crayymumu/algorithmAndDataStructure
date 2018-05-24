@@ -2,10 +2,12 @@ package singleLinkedList;
 
 public class main {
     public static void main(String[] args){
-        LinkList linkList = new LinkList();
+        SingleLinkedList singleLinkedList = new SingleLinkedList();
         for(int i=0;i<10;i++){
-            linkList.addNode(i);
+            singleLinkedList.addNode(i);
         }
-        linkList.printList();
+        singleLinkedList.deleteNode(0);
+        singleLinkedList.deleteNode(9);
+        singleLinkedList.printList();
     }
 }
