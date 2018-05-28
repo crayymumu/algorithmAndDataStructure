@@ -1,4 +1,4 @@
-package singleLinkedList;
+package dataStructure.singleLinkedList;
 
 import java.util.Objects;
 

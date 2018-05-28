@@ -1,4 +1,4 @@
-package singleLinkedList;
+package dataStructure.singleLinkedList;
 
 public class SingleLinkedList {
     public Node head;               // 头节点
